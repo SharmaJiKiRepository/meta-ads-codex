@@ -1,0 +1,76 @@
+# Canonical catalog of every Meta audit check ID.
+#
+# This file is the single source of truth the eval harness uses to enforce:
+#   1. Every check ID listed here MUST have a row in meta-ads/references/meta-audit.md
+#      (no orphan catalog entries).
+#   2. Every check ID with a row in that reference file MUST appear here
+#      (no untracked checks).
+#
+# Update this file when adding or removing a check. The corresponding
+# pytest in tests/audit/test_check_coverage.py will fail on drift.
+#
+# ID convention (from meta-ads/references/scoring-system.md):
+#   - Sequential IDs (M01..M40): original checks
+#   - Hyphenated IDs (M-AN1, M-CR1..4, M-ST1/2, M-AT1, M-IA1, M-TH1): v1.5+ additions
+#   - All checks are Meta-specific (M = Meta)
+
+version: "1.0"
+last_updated: "2026-05-17"
+
+platforms:
+  meta:
+    reference: meta-ads/references/meta-audit.md
+    total_checks: 50
+    skill: meta-analyze
+    audit_agent: meta-audit-core
+    check_ids:
+      - M01
+      - M02
+      - M03
+      - M04
+      - M05
+      - M06
+      - M07
+      - M08
+      - M09
+      - M10
+      - M11
+      - M12
+      - M13
+      - M14
+      - M15
+      - M16
+      - M17
+      - M18
+      - M19
+      - M20
+      - M21
+      - M22
+      - M23
+      - M24
+      - M25
+      - M26
+      - M27
+      - M28
+      - M29
+      - M30
+      - M31
+      - M32
+      - M33
+      - M34
+      - M35
+      - M36
+      - M37
+      - M38
+      - M39
+      - M40
+      - M-AN1
+      - M-AT1
+      - M-CR1
+      - M-CR2
+      - M-CR3
+      - M-CR4
+      - M-IA1
+      - M-ST1
+      - M-ST2
+      - M-TH1

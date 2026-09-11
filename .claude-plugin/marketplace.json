@@ -1,0 +1,55 @@
+{
+  "name": "ai-marketing-hub-meta-ads",
+  "owner": {
+    "name": "Bizwit AI"
+  },
+  "metadata": {
+    "description": "Meta (Facebook/Instagram/Reels/Threads) paid advertising audit, optimization, and AI creative generation conforming to the Agent Skills open standard.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "meta-ads",
+      "source": "./",
+      "description": "Meta paid advertising audit & optimization skill conforming to the Agent Skills open standard. 130+ checks for Facebook, Instagram, Reels, Threads, Messenger & Audience Network under Advantage+ / Andromeda / GEM / Lattice. 15 sub-skills, 9 parallel agents, 12 industry templates, Pixel/CAPI + EMQ deep dives, Conversions API server-side tracking, AI creative generation, PPC math, A/B test design, PDF reports, pytest eval harness.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Bizwit AI"
+      },
+      "homepage": "https://bizwit.ai",
+      "repository": "https://github.com/AI-Marketing-Hub/meta-ads",
+      "license": "MIT",
+      "category": "marketing",
+      "tags": [
+        "agent-skills",
+        "advertising",
+        "audit",
+        "meta-ads",
+        "facebook-ads",
+        "instagram-ads",
+        "reels-ads",
+        "threads-ads",
+        "advantage-plus",
+        "andromeda",
+        "conversions-api",
+        "capi",
+        "event-match-quality",
+        "creative-diversity",
+        "ppc",
+        "optimization",
+        "creative-generation"
+      ],
+      "keywords": [
+        "agent-skills",
+        "advertising-audit",
+        "paid-advertising",
+        "meta-ads",
+        "facebook-ads",
+        "instagram-ads",
+        "conversions-api",
+        "claude-code-skill",
+        "cowork"
+      ]
+    }
+  ]
+}

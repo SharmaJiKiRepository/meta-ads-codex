@@ -1,0 +1,37 @@
+{
+  "name": "meta-ads",
+  "version": "1.0.0",
+  "description": "Meta paid advertising audit & optimization skill conforming to the Agent Skills open standard. Verified on Claude Code / Cowork. 130+ checks for Facebook, Instagram, Reels, Threads, Messenger & Audience Network under the Advantage+ / Andromeda / GEM / Lattice delivery stack \u2014 weighted scoring, parallel agents, 12 industry templates, AI creative generation, Pixel/CAPI + EMQ deep dives, Conversions API server-side tracking, PPC math, A/B test design, PDF reports, and a pytest eval harness.",
+  "author": {
+    "name": "Bizwit AI",
+    "url": "https://bizwit.ai"
+  },
+  "homepage": "https://bizwit.ai",
+  "repository": "https://github.com/AI-Marketing-Hub/meta-ads",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "advertising-audit",
+    "paid-advertising",
+    "meta-ads",
+    "facebook-ads",
+    "instagram-ads",
+    "reels-ads",
+    "advantage-plus",
+    "andromeda",
+    "conversions-api",
+    "capi",
+    "event-match-quality",
+    "creative-diversity",
+    "pixel",
+    "ppc",
+    "ad-optimization",
+    "creative-generation",
+    "claude-code-skill",
+    "cowork"
+  ],
+  "skills": [
+    "./meta-ads/",
+    "./skills/"
+  ]
+}

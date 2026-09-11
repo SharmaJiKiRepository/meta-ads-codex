@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software in your work, please cite it using the metadata below."
+type: software
+title: "Meta Ads"
+abstract: >
+  Meta paid advertising audit and optimization skill conforming to the Agent
+  Skills open standard. Verified on Claude Code / Cowork. Covers Facebook,
+  Instagram, Reels, Threads, Messenger, and Audience Network under the
+  Advantage+ / Andromeda / GEM / Lattice delivery stack — including Entity-ID
+  clustering prediction — with 130+ audit checks, 15 sub-skills, 9 parallel
+  agents, 12 industry templates, Pixel/CAPI + EMQ and Conversions API
+  server-side tracking deep dives, Meta attribution analysis, PPC math, A/B
+  test design, PDF report generation, and a pytest eval harness.
+authors:
+  - name: "Bizwit AI"
+repository-code: "https://github.com/AI-Marketing-Hub/meta-ads"
+url: "https://github.com/AI-Marketing-Hub/meta-ads"
+license: MIT
+version: "1.0.0"
+date-released: "2026-07-04"
+keywords:
+  - paid advertising
+  - meta ads
+  - facebook ads
+  - instagram ads
+  - reels ads
+  - advantage+
+  - andromeda
+  - conversions api
+  - event match quality
+  - creative diversity
+  - ppc
+  - advertising audit
+  - agent skills
+  - claude code
+  - cowork
+  - llm tool
